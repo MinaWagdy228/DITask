@@ -14,7 +14,7 @@ class MovieViewController: UIViewController {
     init(viewModel: MovieViewModel) {
         self.viewModel = viewModel
 
-        super.init(nibName: "MovieView", bundle: nil)
+        super.init(nibName: "MovieViewController", bundle: nil)
     }
 
     required init?(coder: NSCoder) {
